@@ -2,7 +2,7 @@
 
 ## 1. 📝 Descrição 
 
-- Este é o meu primeiro projeto FrontEnd, desenvolvido como parte do curso Introdução ao Desenvolvimento Web na Coti Informática. Ele serve como um linktree pessoal, centralizando todos os links importantes em um único lugar, facilitando o acesso aos visitantes. Durante o desenvolvimento deste projeto, foram aplicados conhecimentos de HTML e CSS para criar um layout bonito e profissional, tornando a experiência de navegação agradável para o usuário.
+Este é o meu primeiro projeto FrontEnd, desenvolvido como parte do curso Introdução ao Desenvolvimento Web na Coti Informática. Ele serve como um linktree pessoal, centralizando todos os links importantes em um único lugar, facilitando o acesso aos visitantes. Durante o desenvolvimento deste projeto, foram aplicados conhecimentos de HTML e CSS para criar um layout bonito e profissional, tornando a experiência de navegação agradável para o usuário.
 
 
 ## 2. Tecnologias Utilizadas
