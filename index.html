@@ -1,0 +1,67 @@
+<!--html é uma linguagem de marcação /conteudo.
+tag = comando html.-->
+
+<!-- Representa a versão do HTML (versão atual : 5.1) -->
+<!DOCTYPE html>
+<!-- Primeira marcação, o html está sendo aberto nessa linha. lang é um atributo, é um complemento da tag. 
+Está sendo atribuida a tag html a linguagem portugues. Ou en para ingles;  -->
+<html lang="pt-br">
+
+<head>
+    <!-- Cuida dos acentos // caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Versão mais recente do Chromer, ajuda na compatibilidade de navegadores -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Essa linha 16 habilita que o site se adpta aos outros dispositivos móveis = responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Nome da página // é bom colocar um nome que atraia as pesquisas no Google-->
+    <title>Página de Links</title>
+
+    <!-- Ligação entre HTML e CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- Corpo do site, onde vai ficar visualmente no site -->
+
+<body>
+
+    <!-- DIV SERIA A CAIXA QUE ENVOLVE TUDO QUE ESTÁ NO CORPO -->
+    <div>
+
+    <!-- Para colocar a imagem e width serva para definir o tamanho dessa imagem ; alt é a descrição da foto -->
+    <!-- ALT = se essa imagem nao for carregada por algum motivo, vai aparecer o nome que está dentro da tag alt -->
+    <!-- ALT = Serve para busca de imagens do Google -->
+    <img src="https://avatars.githubusercontent.com/u/130423920?v=4" width="100" alt="Foto de perfil">
+
+    <h1>Rafaela Souza</h1>
+    <!--Título Principal no corpo da página // nível de importância // não se deve ter mais de um h1 na página -->
+    <h2>Desenvolvedora Front-End</h2> <!--Título secundário no corpo da página-->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, facilis.</p> <!--Parágrafos-->
+
+    <!-- <Ol> significa Lista Ordenada -->
+    <!-- <ul> significa Lista Não Ordenada -->
+    <ul>
+        <!-- Item da lista -->
+        <li><a href="https://github.com/rssrafaela" target="_blank">Github</a></li>
+        <!--Para ser link, tenho que colocar tag a dentro da tag li-->
+        <li><a href="https://www.linkedin.com/in/rafaela-souza-da-silva-78438822b/" target="_blank">Linkedin</a></li>
+        <li><a href="https://www.instagram.com/rssrafaela/" target="_blank">Instagram</a></li>
+        <li><a href="https://wa.me/5521995009529" target="_blank">Whatsapp</a></li>
+    </ul>
+
+    <!-- target = blank serve para o usuário apertar no link e ele ser aberto em outra aba -->
+    <a href="https://www.cotiinformatica.com.br" target="_blank" id="desenvolvido">Desenvolvido por Coti Informática</a> <!-- Link -->
+
+
+</div>
+
+</body>
+<!-- Fechando a tag html, acabou o código. Não se escreve nada após. -->
+
+</html>

@@ -1,0 +1,102 @@
+/*
+Seletor{
+    propriedade:valor;
+}
+*/
+
+body{  
+    background-color: #222831; /* Cor de fundo do corpo do site */
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    background-color: #EEEEEE; /* Cor de fundo da div */
+    width: 400px; /*Largura*/
+    text-align: center; /*Centraliza textos e palavras*/
+    padding: 30px; /*Espaçamento interno*/
+    box-sizing: border-box /*Faz com que o padding não interfira na largura*/;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    border-radius: 10px;
+}
+
+img{
+    margin-bottom: 30px; /* espaço entre h1 e imagem*/
+    border-width: 5px; /* Borda na imagem*/
+    border-color: #222831;
+    border-style: solid;
+    border-radius: 50%; /*arredondamento da borda*/
+}
+
+h1{
+    color: #393E46; /*Cor do texto h1*/
+    font-size: 32px; /*Tamanho padrão da fonte*/
+    margin: 0; /*Margem*/
+}
+h2{
+    color: #222831; /*Cor do texto h2*/
+    font-size: 20px; /*Tamanho padrão da fonte*/
+    margin: 0;
+}
+
+p{
+    color: #666666;
+    font-size: 16px; /*valor inicial*/
+}
+
+ul{
+    margin: 0 0 30px 0; /*Sentindo horário começando pelo top right bottom left*/
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+/*Formatando todos os links que estão dentro deu m <li>*/
+li a{
+    background-color: #393E46;
+    color: #FFFFFF;
+    display: block; /*O link passa a se comportar como um bloco*/
+    text-decoration: none; /*Tirar o sublinhado do texto*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+li a:hover{ /*Ao passar o mouse no seletor*/
+    background-color: #000000;
+}
+
+#desenvolvido{ /*Sempre que tiver uma ID , colocar o # antes quando for chama-la.*/
+    color: #222831;
+}
+
+#desenvolvido:hover{ /*Ao passar o mouse no seletor*/
+    font-style: italic;
+}
+
+/*Media Query = Responsividade*/
+/*Se o tamanho da tela for de até 540px*/
+@media (max-width: 540px){
+    
+    div{
+        width: 300px;
+        padding: 15px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
+
+    @media (min-width: 1200px){
+        div{
+            width: 500px;
+        }
+    }
