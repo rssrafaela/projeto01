@@ -43,3 +43,6 @@ Durante o curso, aprendi como:
 ## 6. 🎯 Status do projeto
 
 - Concluído ✅
+
+## Licença
+Este repositório é fornecido sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
