@@ -22,9 +22,30 @@ Durante o curso, aprendi como:
 
 ## 4. 🎨 Layout
 
-### Mobile
+ <style>
+        .image-container {
+            display: flex; /* Utiliza o flexbox layout */
+            flex-wrap: nowrap; /* Impede que os itens se quebrem em linhas */
+        }
 
-<img src="img/mobile.png" alt="mobile" width="200">
+        .image-container img {
+            margin-right: 20px; /* Espaçamento entre as imagens */
+        }
+         .image-container h2 {
+            text-align: center; /* Centraliza o texto */
+        }
+    </style>
+
+ <div class="image-container">
+        <div>
+            <img src="img/mobile.png" alt="mobile" width="200">
+            <h2>Mobile</h2>
+        </div>
+        <div>
+            <img src="img/desktop.png" alt="Desktop" width="756">
+            <h2>Desktop</h2>
+        </div>
+    </div>
 
 
 ## 5. 📁 Acesso ao projeto
